@@ -18,6 +18,8 @@ Average Reading Score
 
 
 
+
+
 School Summary
 
 Create an overview table that summarizes key metrics about each school, including:
@@ -32,6 +34,8 @@ Average Reading Score
 % Passing Math (The percentage of students that passed math.)
 % Passing Reading (The percentage of students that passed reading.)
 % Overall Passing (The percentage of students that passed math and reading.)
+
+
 
 
 
@@ -54,9 +58,13 @@ Average Reading Score
 
 
 
+
+
 Bottom Performing Schools (By % Overall Passing)
 
 Create a table that highlights the bottom 5 performing schools based on % Overall Passing. Include all of the same metrics as above.
+
+
 
 
 Math Scores by Grade**
@@ -64,9 +72,13 @@ Math Scores by Grade**
 Create a table that lists the average Math Score for students of each grade level (9th, 10th, 11th, 12th) at each school.
 
 
+
+
 Reading Scores by Grade
 
 Create a table that lists the average Reading Score for students of each grade level (9th, 10th, 11th, 12th) at each school.
+
+
 
 
 Scores by School Spending
@@ -87,13 +99,28 @@ Scores by School Size
 Repeat the above breakdown, but this time group schools based on a reasonable approximation of school size (Small, Medium, Large).
 
 
+
 Scores by School Type
 
 Repeat the above breakdown, but this time group schools based on school type (Charter vs. District).
+
+
+
 
 As final considerations:
 
 Use the pandas library and Jupyter Notebook.
 You must submit a link to your Jupyter Notebook.
 You must include a written description of at least two observable trends based on the data.
-See Example Solution for a reference on the expected format.
+
+Three Observable Trends = 
+
+
+
+
+# Out of 15 schools counting 37,170 students, the Overall Oassing Percentage is 80.43.
+
+# Based on school size, Small sizes (<750 students) perform signifigantly better than larger sized schools (2500 - 6000 students)
+
+# Charter Schools seem to have a much higher Overall Passing Percentage Rate than District schools.  
+
